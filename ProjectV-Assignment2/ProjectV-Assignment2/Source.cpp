@@ -52,13 +52,17 @@ int main() {
 
     testStudents = processStudents();
 
+#ifdef _DEBUG
+
     //print out the student data
-    /*cout << "Student Data:" << endl;
+    cout << "Student Data:" << endl;
     for (const auto& student : testStudents) {
 
         cout << student.lastName << ", " << student.firstName << endl;
 
-    }*/
+    }
+    
+#endif // DEBUG
 
     return 1;
 }
