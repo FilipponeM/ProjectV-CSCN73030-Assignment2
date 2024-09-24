@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define PRE_RELEASE
+//#define PRE_RELEASE
 
 //struct of student data
 struct STUDENT_DATA {
